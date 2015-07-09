@@ -3183,7 +3183,7 @@ body {
  * ============================================ */
 .header-language-background {
   padding: 10px;
-  background-color: #3399cc;
+  background-color: #102b72;
   text-transform: uppercase;
 }
 .header-language-background .header-language-container {
@@ -3470,6 +3470,8 @@ a.skip-link {
   .nav-primary {
     display: block;
     margin-top: 15px;
+    background-color: #000024;
+    text-align: center;
   }
 }
 /* ============================================ *
@@ -3479,7 +3481,7 @@ a.skip-link {
   text-decoration: none;
   position: relative;
   display: block;
-  color: #636363;
+  color: #FFF;
   line-height: 30px;
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
 }
