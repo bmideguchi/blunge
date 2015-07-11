@@ -10657,3 +10657,17 @@ div.calendar table td.button {
 .ad-row{
   margin: 1.6% 0;
 }
+
+.category-title{
+  display: none;
+}
+
+.toolbar{
+  width: 106.6%;
+  margin-left: -3.3%;
+  margin-top: -2.6%;
+}
+
+.toolbar-bottom{
+  display: none;
+}
