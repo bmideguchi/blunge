@@ -32,19 +32,23 @@ Default layout, loads most of the pages
 
     <default>
         <reference name="footer">
-            <block type="cms/block" name="cms_footer_links" before="footer_links">
-                <!--
-                    The content of this block is taken from the database by its block_id.
-                    You can manage it in admin CMS -> Static Blocks
-                -->
+            <!--
+                The content of this block is taken from the database by its block_id.
+                You can manage it in admin CMS -> Static Blocks
+            -->
+            <!--
+            <block type="cms/block" name="cms_footer_links" before="footer_links"> 
                 <action method="setBlockId"><block_id>footer_links_company</block_id></action>
             </block>
             <block type="cms/block" name="cms_footer_links_sm" after="footer_links2">
-                <!--
-                    The content of this block is taken from the database by its block_id.
-                    You can manage it in admin CMS -> Static Blocks
-                -->
                 <action method="setBlockId"><block_id>footer_links_sm</block_id></action>
+            </block>
+            -->
+            <block type="cms/block" name="por-que-comprar-com-a-blunge">
+                <action method="setBlockId"><block_id>por-que-comprar-com-a-blunge</block_id></action>
+            </block>
+            <block type="cms/block" name="podemos-ajudar">
+                <action method="setBlockId"><block_id>podemos-ajudar</block_id></action>
             </block>
         </reference>
     </default>

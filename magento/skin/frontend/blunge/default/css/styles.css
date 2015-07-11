@@ -669,7 +669,7 @@ h6, .h6 {
 .block-title strong {
   margin: 0;
   margin-bottom: 10px;
-  color: #636363;
+  color: #ccc;
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
   font-size: 14px;
   font-weight: bold;
@@ -677,7 +677,7 @@ h6, .h6 {
   line-height: 1.4;
   text-rendering: optimizeSpeed;
   text-transform: uppercase;
-  color: #3399cc;
+  color: #ccc;
   margin-bottom: 0;
   text-transform: uppercase;
   font-weight: 600;
@@ -1289,10 +1289,13 @@ a.button:hover {
 /* -------------------------------------------- *
  * Container
  */
+.main-container{
+  max-width: 1260px;
+}
+
 .main-container,
 .footer-container {
   position: relative;
-  max-width: 1260px;
   margin: 0 auto;
   padding: 15px;
 }
@@ -1310,6 +1313,8 @@ a.button:hover {
   }
 }
 .footer-container {
+  width: 100%;
+  background: #000024;
   padding-top: 0px;
 }
 
@@ -3995,7 +4000,7 @@ a.skip-link {
 }
 .footer .block-title,
 .footer address {
-  color: #3399cc;
+  color: #ccc;
 }
 .footer .links {
   float: left;
@@ -4007,9 +4012,10 @@ a.skip-link {
   word-break: break-all;
   line-height: 1.4;
   padding: 4px 0;
+  color: #fff;
 }
 .footer .links a {
-  color: #636363;
+  color: #fff;
 }
 .footer .links a:hover {
   color: #3399cc;
@@ -10623,4 +10629,31 @@ div.calendar table td.button {
 .topbar-conta.last-item{
   border: 0;
   padding-right: 0;
+}
+
+.home-ad-2-col {
+  background: #ccc;
+  width: 49%;
+  height: 140px;
+  display: inline-block;
+}
+
+.home-ad-2-col.last-ad {
+  margin-left: 1.6%;
+}
+
+.home-ad-3-col{
+  margin: 0 1.6% 0 0;
+  background: #ccc;
+  width: 32.04%;
+  height: 240px;
+  display: inline-block;
+}
+
+.home-ad-3-col.last-ad{
+  margin: 0;
+}
+
+.ad-row{
+  margin: 1.6% 0;
 }
