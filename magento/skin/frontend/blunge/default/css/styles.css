@@ -10693,3 +10693,20 @@ div.calendar table td.button {
 .hover-btns a{
   color: #fff;
 }
+
+.banner { 
+  position: relative; 
+  overflow: auto; 
+}
+
+.banner-holder{
+  height: 300px;
+  width: 108%;
+  margin-left: -4%;
+  margin-top: -21px;
+  background-color: #ccc;
+}
+
+.banner li { list-style: none; }
+
+.banner ul li { float: left; }

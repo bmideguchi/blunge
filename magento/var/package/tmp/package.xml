@@ -1,19 +1,18 @@
 <?xml version="1.0"?>
 <package>
-    <name>Mediarocks_RetinaImages</name>
-    <version>0.1.2</version>
+    <name>sliderbywebline</name>
+    <version>0.1.0</version>
     <stability>stable</stability>
-    <license uri="http://solutions.mediarocks.de/MEDIAROCKS-LICENSE-COMMUNITY.txt">Media Rocks Magento Community EULA</license>
+    <license>GNU</license>
     <channel>community</channel>
     <extends/>
-    <summary>Sharpen your product images by providing double-sized images for high resolution devices like modern screens, smartphones and tablets.</summary>
-    <description>Our Retina Images extension displays sharper images to users with high resolution devices like modern screens, smartphones and tablets by providing a double-sized version of the product images. In contrast to any javascript based approach where the normal image is loaded first and then substituted by the retina version (like retina.js jQuery plugin etc.), this extension creates and caches them server-side on the fly in PHP and provides them directly to the image's source attribute, so only the retina version is loaded.</description>
-    <notes>- added option for image quality and retina image quality&#xD;
-- approved for Magento version 1.9.1.0</notes>
-    <authors><author><name>Media Rocks</name><user>mediarocks</user><email>support@mediarocks.de</email></author></authors>
-    <date>2015-06-29</date>
-    <time>12:59:35</time>
-    <contents><target name="magecommunity"><dir name="Mediarocks"><dir name="RetinaImages"><dir name="Helper"><file name="Data.php" hash="2b57bf29f44544ff588c0a51cf07fe10"/><file name="Image.php" hash="b4b03156327895ef6655b0850836e116"/></dir><dir name="Model"><dir name="Product"><file name="Image.php" hash="d733f513510d689fcbd350fcf6e18f73"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="03de2d2203c35d110467cda978c0bf1d"/><file name="config.xml" hash="58a8331af7c99007bdece9c3e2034759"/><file name="system.xml" hash="a5092514de2264de104dfde3857c3599"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Mediarocks_RetinaImages.xml" hash="6ceb38b250539e26eacec57f352e5d2d"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="mediarocks"><file name="retinaimages" hash="d41d8cd98f00b204e9800998ecf8427e"/></dir></dir><dir name="layout"><file name="mediarocks_retinaimages.xml" hash="515e77e3840da804381bcff6300686b7"/></dir></dir></dir></dir></target></contents>
+    <summary>Banner Slider</summary>
+    <description>This the extension which will help the end user for the creating the slider of the image and products in the home page only.</description>
+    <notes>First Release</notes>
+    <authors><author><name>Webline</name><user>WeblineIndia</user><email>partners@weblineindia.com</email></author></authors>
+    <date>2015-03-31</date>
+    <time>06:58:18</time>
+    <contents><target name="magelocal"><dir name="Wli"><dir name="Wlislider"><dir name="Block"><dir name="Adminhtml"><dir name="Wlislider"><dir name="Edit"><file name="Form.php" hash="6b3c6cc2d21ca619afcac5c72a88a91f"/><dir name="Tab"><file name="Form.php" hash="9bcfce5ba5c7cc9e2314e08bd165c972"/></dir><file name="Tabs.php" hash="26a72f6cde207c9d4927a36a844ae36c"/></dir><file name="Edit.php" hash="180fb5869e1d96c7f1972d625060471e"/><file name="Grid.php" hash="b563d8fe83d62bcd3894abcbe51bd3ad"/><dir name="Renderer"><file name="Imagedisplay.php" hash="daf57760179b1a7b981f40be23c7998a"/></dir></dir><file name="Wlislider.php" hash="b731c5897b925c71c3d8f71f43f20680"/></dir><dir name="Html"><file name="Header.php" hash="f0021b078c8e1b54d2cdc00a64b10e20"/></dir></dir><dir name="Helper"><file name="Data.php" hash="1470ed740469ef03673c18098edf314c"/></dir><dir name="Model"><dir name="Mysql4"><dir name="Wlislider"><file name="Collection.php" hash="0abfee6305ac9cc3bdbb8f706a404da7"/></dir><file name="Wlislider.php" hash="32bd5804ad6e9edede5dfc1a96f521c6"/></dir><file name="Slideroption.php" hash="395881e1d1588004c1180e121b5b9604"/><file name="Wlislider.php" hash="6c9ea49c6d4bb61e5b89a8df77b176b3"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="WlisliderController.php" hash="ebabdc6970a8e27eb92955897efe045c"/></dir><file name="IndexController.php" hash="876ece3f7e8da8635e54390315587a25"/></dir><dir name="etc"><file name="adminhtml.xml" hash="dd529ace51d0259e828bdfc1311570a9"/><file name="config.xml" hash="b458da7ea807dea9e2e3772b0ddfcd45"/><file name="system.xml" hash="4b8c924dfb600c2b2d088b78b4c79858"/></dir><dir name="sql"><dir name="wlislider_setup"><file name="mysql4-install-0.1.0.php" hash="e7d1233a2effd29cd77a677cb7452dd9"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Wli_Wlislider.xml" hash="e15be05123fd644bbf4733de7c4282fa"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="wlislider.xml" hash="671811c7f1bfd8d2cf2af29641554ee9"/></dir><dir name="template"><dir name="wlislider"><dir name="page"><dir name="html"><file name="header.phtml" hash="b46012ac7e8b3f7ca2567cb8719c105d"/></dir></dir></dir></dir></dir></dir></dir></target><target name="mage"><dir name="."><file name="protoshow.php" hash="97f8dbf249aac78e0b3017b6f1b3d06e"/></dir><dir name="js"><dir name="slider"><file name="123protoshow.js" hash="0dc6f8d10dddf79c89b053bffc22787a"/><file name="site.js" hash="c65079ba473db100957b25dd1bee77b4"/></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><dir name="slider"><file name="protoshow.css" hash="47388f1c00b9be464a0a35cb4b647250"/><file name="reset.css" hash="6d14fba47843fe2375aeeb7e5d9cf783"/><file name="site.css" hash="ef716c6aa8aabac7ae3750c2d8ac0a7c"/></dir></dir></dir></dir></dir></target></contents>
     <compatible/>
-    <dependencies><required><php><min>5.2.0</min><max>5.9.0</max></php></required></dependencies>
+    <dependencies><required><php><min>5.2.0</min><max>5.6.0</max></php></required></dependencies>
 </package>
