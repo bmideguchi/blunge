@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+    <name>Mediarocks_RetinaImages</name>
+    <version>0.1.2</version>
+    <stability>stable</stability>
+    <license uri="http://solutions.mediarocks.de/MEDIAROCKS-LICENSE-COMMUNITY.txt">Media Rocks Magento Community EULA</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Sharpen your product images by providing double-sized images for high resolution devices like modern screens, smartphones and tablets.</summary>
+    <description>Our Retina Images extension displays sharper images to users with high resolution devices like modern screens, smartphones and tablets by providing a double-sized version of the product images. In contrast to any javascript based approach where the normal image is loaded first and then substituted by the retina version (like retina.js jQuery plugin etc.), this extension creates and caches them server-side on the fly in PHP and provides them directly to the image's source attribute, so only the retina version is loaded.</description>
+    <notes>- added option for image quality and retina image quality&#xD;
+- approved for Magento version 1.9.1.0</notes>
+    <authors><author><name>Media Rocks</name><user>mediarocks</user><email>support@mediarocks.de</email></author></authors>
+    <date>2015-06-29</date>
+    <time>12:59:35</time>
+    <contents><target name="magecommunity"><dir name="Mediarocks"><dir name="RetinaImages"><dir name="Helper"><file name="Data.php" hash="2b57bf29f44544ff588c0a51cf07fe10"/><file name="Image.php" hash="b4b03156327895ef6655b0850836e116"/></dir><dir name="Model"><dir name="Product"><file name="Image.php" hash="d733f513510d689fcbd350fcf6e18f73"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="03de2d2203c35d110467cda978c0bf1d"/><file name="config.xml" hash="58a8331af7c99007bdece9c3e2034759"/><file name="system.xml" hash="a5092514de2264de104dfde3857c3599"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Mediarocks_RetinaImages.xml" hash="6ceb38b250539e26eacec57f352e5d2d"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="mediarocks"><file name="retinaimages" hash="d41d8cd98f00b204e9800998ecf8427e"/></dir></dir><dir name="layout"><file name="mediarocks_retinaimages.xml" hash="515e77e3840da804381bcff6300686b7"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>5.9.0</max></php></required></dependencies>
+</package>
